@@ -7,7 +7,7 @@ export function Produto({ item, adicionar }) {
 
   const {
     viuProduto } = useContext(ProdutoContext);
-
+    
   return (
     <View style={estilos.cartao}>
       <Image style={estilos.imagem} source={item.imagem}/>

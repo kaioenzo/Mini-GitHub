@@ -6,7 +6,7 @@ export function ProdutoProvider({children}) {
     const [carrinho, setCarrinho] = useState([]);
     const [quantidade, setQuantidade] = useState(0);
     const [ultimosVistos, setUltimosVistos] = useState([]);
-
+    
     function viuProduto(produto){
         setQuantidade(quantidade+1);
 
@@ -25,7 +25,8 @@ export function ProdutoProvider({children}) {
             carrinho,
             quantidade,
             ultimosVistos,
-            viuProduto}}>
+            viuProduto
+            }}>
                 {children}
         </ProdutoContext.Provider>
     )
