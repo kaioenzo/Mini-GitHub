@@ -1,10 +1,4 @@
-<h1 align="center">
-    <img alt="ContextAPI" title="#ContextAPI" src=".images/header.png" width="100%" />
-</h1>
 
-<h4 align="center"> 
-	AluraCommerce
-</h4>
 
 <p align="center">
   <a href="#information_source-o-que-é-o-ficando-online">O que é o AluraCommerce?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -14,7 +8,7 @@
 
 ## :information_source: O que é o AluraCommerce?
 
-O AluraCommerce é uma aplicação feita em React Native que simula um e-commerce. A ideia é usar o Context API, do react, para ver a vantagem de se ter estados globais na aplicação. Também é usado o AsyncStorage e uma Web API para ter a persistência dos dados.
+É uma aplicação feita em React Native que simula um e-commerce. A ideia é usar o Context API, do react, para ver a vantagem de se ter estados globais na aplicação. Também é usado o AsyncStorage e uma Web API para ter a persistência dos dados.
 
 Esse projeto é utilizado na formação base de React Native da plataforma da Alura.
 
@@ -40,10 +34,8 @@ No terminal, digite os comandos a seguir:
 
 ```bash
 # Clonar esse repositório
-$ git clone https://github.com/alura-cursos/react-native-context-api.git
 
 # Vá para o ropositório
-$ cd AluraCommerce
 
 # Instale as dependências
 $ npm install
